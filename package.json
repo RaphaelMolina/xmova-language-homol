@@ -1,0 +1,26 @@
+{
+  "name": "xmova-language-homol",
+  "displayName": "Xmova Language Homol",
+  "description": "Support for Language Xmova Homol",
+"version": "0.0.16",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "publisher": "RaphaelMolina",
+  "contributes": {
+    "languages": [{
+      "id": "xmova",
+      "aliases": ["Xmova", "xmova"],
+      "extensions": [".xmv"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "xmova",
+      "scopeName": "source.xmv",
+      "path": "./syntaxes/xmova.tmLanguage.json"
+    }]
+  }
+}
