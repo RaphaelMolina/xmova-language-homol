@@ -2,7 +2,7 @@
   "name": "xmova-language-homol",
   "displayName": "Xmova Language Homol",
   "description": "Support for Language Xmova Homol",
-"version": "0.0.16",
+"version": "0.0.17",
   "engines": {
     "vscode": "^1.89.0"
   },
