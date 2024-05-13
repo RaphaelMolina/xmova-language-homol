@@ -2,7 +2,12 @@
   "name": "xmova-language-homol",
   "displayName": "Xmova Language Homol",
   "description": "Support for Language Xmova Homol",
-"version": "0.0.17",
+  "version": "0.0.25",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RaphaelMolina/xmova-language-homol"
+  },
   "engines": {
     "vscode": "^1.89.0"
   },
@@ -15,7 +20,11 @@
       "id": "xmova",
       "aliases": ["Xmova", "xmova"],
       "extensions": [".xmv"],
-      "configuration": "./language-configuration.json"
+      "configuration": "./language-configuration.json",
+      "icon": {
+        "light": "icons/icon.svg",
+        "dark": "icons/icon.svg"
+      }
     }],
     "grammars": [{
       "language": "xmova",
