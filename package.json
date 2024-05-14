@@ -2,7 +2,7 @@
   "name": "xmova-language-homol",
   "displayName": "Xmova Language Homol",
   "description": "Support for Language Xmova Homol",
-  "version": "0.0.25",
+  "version": "0.0.26",
   "icon": "icon.png",
   "repository": {
     "type": "git",
@@ -30,6 +30,10 @@
       "language": "xmova",
       "scopeName": "source.xmv",
       "path": "./syntaxes/xmova.tmLanguage.json"
+    }],
+    "snippets": [{
+      "language": "xmova",
+      "path": "./snippets/snippets.json"
     }]
   }
 }
